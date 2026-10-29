@@ -6,6 +6,10 @@
 
 它尤其适合英文科研写作，包括 abstract、figure legend、Results、Introduction、Discussion、cover letter，以及面向 Nature/Science-like 跨学科读者的段落。
 
+## 1.1.0：中文个人实践表达
+
+新增中文个人实践文章的写作参考和八个练习场景，关注普通用词、完整句子、第一人称、自然衔接和有边界的探索语气。参考样本是风格资料，不应复制其中的经历或承诺；科研正文仍使用科研写作模式。此更新不代表模型微调或独立效果评测。
+
 ## 这个版本的重点
 
 这个 skill 不只是把英文规则翻译成中文。它加入了面向英文科研文本的编辑模式：
@@ -120,7 +124,9 @@ humanizer-write/
 ├── LICENSE
 └── references/
     ├── nature-science-writing.md
-    └── negative-parallelism.md
+    ├── negative-parallelism.md
+    ├── robin-practice-writing.md
+    └── robin-writing-exercises.md
 ```
 
 - `SKILL.md`：skill 定义和完整处理规则；

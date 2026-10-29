@@ -6,6 +6,10 @@
 
 It has a dedicated scientific-writing mode for abstracts, figure legends, Results, Introductions, Discussions, cover letters, and Nature/Science-like writing aimed at interdisciplinary readers.
 
+## Version 1.1.0: Chinese personal practice writing
+
+This version adds a reference and eight exercises for Chinese personal essays and practice writing. They cover ordinary wording, complete sentences, first-person perspective, natural transitions, and appropriately qualified exploration. The sample is style data: do not copy its personal experiences or future commitments. Scientific manuscripts continue to use the scientific-writing mode. This update does not represent model fine-tuning or an independent effectiveness evaluation.
+
 ## What makes this version different
 
 This is not only a translation of a general humanizer. The skill includes an English-aware scientific editing mode that focuses on:
@@ -120,7 +124,9 @@ humanizer-write/
 ├── LICENSE
 └── references/
     ├── nature-science-writing.md
-    └── negative-parallelism.md
+    ├── negative-parallelism.md
+    ├── robin-practice-writing.md
+    └── robin-writing-exercises.md
 ```
 
 - `SKILL.md`: skill definition and complete editing rules;
