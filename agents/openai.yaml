@@ -1,0 +1,22 @@
+interface:
+  display_name: humanizer write
+  short_description: '去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。
+
+    基于维基百科的"AI 写作特征"综合指南。检测并修复以下模式：夸大的象征意义、
+
+    宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、
+
+    AI 词汇、否定式排比（尤其是中英文共同的"不是……而是……" / "not X, but Y"）、过多的连接性短语。
+
+    对科研论文、Results/Introduction/Discussion 段落和 Nature/Science-like 高影响力科学写作，
+
+    额外检测自我证明式 novelty、抽象名词堆叠、主语缺失和证据强度漂移；不把 here/we 本身判为 AI。'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
