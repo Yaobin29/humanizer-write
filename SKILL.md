@@ -13,7 +13,7 @@ description: 编辑、润色和重写中文或英文文本，降低模板化 AI 
 
 ## 任务路由
 
-1. **General**：无个性化参考的一般文章、邮件、说明文。读取 `references/ai-writing-patterns.md` 中相关部分；保持内容中性和直接。
+1. **General**：无个性化参考的一般文章、邮件、说明文。读取 `references/ai-writing-patterns.md` 中相关部分；保持内容中性和直接。**写中文时同时读 `references/zh-colloquial-assertions.md`**（口语断言腔六类：这账要算清／不烧心／先摆正…）。
 2. **Personal Essay**：知乎、公众号、主观评论、个人经验、用户提出“像我写的”。读取 `references/personal-essay.md`；可读取 `references/author-profile.md`（该档案仅为可验证的初始假设）。以用户提供的样本和当前修改意见为优先，不得把档案当作事实或强制模板。
 3. **Scientific**：论文、摘要、Results、Introduction、Discussion、图注、学术 cover letter。读取 `references/nature-science-writing.md` 和 `references/content-fidelity.md`；科研规则覆盖通用“增加情绪、个性、允许混乱”等建议。保护范围、条件、证据强度和 novelty。
 4. 用户同时有个人和科研文本时分别路由，不合并风格标准。
@@ -40,4 +40,5 @@ description: 编辑、润色和重写中文或英文文本，降低模板化 AI 
 - `references/nature-science-writing.md`：科研专用规则与 claim map
 - `references/negative-parallelism.md`：中英文对举句式判断
 - `references/content-fidelity.md`：事实、推断、引用和论证保真硬门槛
+- `references/zh-colloquial-assertions.md`：中文口语断言腔黑名单（第二代 AI 痕迹）与段落首句规则
 - `references/evaluation.md`：评价、对照测试、反馈更新协议
